@@ -3,7 +3,7 @@ description: 레슨 과제 수행 중 생긴 질문을 남겨주세요.
 title: "[Java-1]: "
 labels: ["bug"]
 assignees:
-  - Re0pard
+  - Re0pard
 body:
   - type: markdown
     attributes:
