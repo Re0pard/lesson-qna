@@ -1,6 +1,6 @@
 name: Lesson Question
-description: 레슨 과제 수행 중 생긴 질문을 남겨주세요.
-title: "[Java-1]: "
+description: 레슨 과제 수행 중 생긴 질문을 남겨주세요.
+title: "[Java-1]: "
 labels: ["bug"]
 assignees:
   - Re0pard
@@ -13,8 +13,8 @@ body:
   - type: input
     id: student-id
     attributes:
-      label: 수강생 정보
-      description: 질문하시는 수강생 분의 레슨 시작 년월 및 이름을 남겨주세요. 23년 11월 홍길동 -> 2311홍길동
+      label: 수강생 정보
+      description: 질문하시는 수강생 분의 레슨 시작 년월 및 이름을 남겨주세요. 23년 11월 홍길동 -> 2311홍길동
       placeholder: ex. 2311홍길동
     validations:
       required: true
@@ -23,12 +23,12 @@ body:
     attributes:
       label: 질문 내용
       description: 질문하시려는 내용을 적어주세요.
-      placeholder: ex. 자바 설치를 하는 도중 문제가 생겼어요.
+      placeholder: ex. 자바 설치를 하는 도중 문제가 생겼어요.
     validations:
       required: true
   - type: textarea
     id: what-you-tried
     attributes:
-      label: 위 질문을 해결하기 위해 수행한 내용
-      description: 질문에 남기신 내용을 해결하기 위해 수행했던 것들에 대해 알려주세요.
-      placeholder: ex. 자바 공식 문서 들어가서 이렇게 저렇게 따라해봤어요.
+      label: 위 질문을 해결하기 위해 수행한 내용
+      description: 질문에 남기신 내용을 해결하기 위해 수행했던 것들에 대해 알려주세요.
+      placeholder: ex. 자바 공식 문서 들어가서 이렇게 저렇게 따라해봤어요.
