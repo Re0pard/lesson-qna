@@ -1,7 +1,6 @@
 name: Lesson Question
 description: 레슨 과제 수행 중 생긴 질문을 남겨주세요.
 title: "[Java-1]: "
-labels: ["bug"]
 assignees:
   - Re0pard
 body:
@@ -13,6 +12,9 @@ body:
         
         개인 멘토링일 경우 본인이 현재 학습 중인 언어 또는 프레임워크 이름을 남겨주세요.
         ex. Typescript, Flutter, etc.
+
+        우측 labels에서 본인의 질문에 해당하는 label들을 선택해주세요.
+        Assignee는 그대로 두시면 됩니다.
   - type: input
     id: student-id
     attributes:
