@@ -36,3 +36,11 @@ body:
       placeholder: ex. 자바 공식 문서 들어가서 이렇게 저렇게 따라해봤어요.
     validations:
       required: true
+  - type: checkboxes
+    id: live-help
+    attributes:
+      label: 화상 미팅 요청 여부
+      description: 실시간 대화 또는 화면 공유 등을 통한 도움이 필요하시면 체크해주세요.
+      options:
+        - label: 화상 미팅 요청
+          required: false
