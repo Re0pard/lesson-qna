@@ -10,6 +10,9 @@ body:
       value: |
         이슈 제목 앞 대괄호 안에는 현재 진행 중인 과정과 몇 주차인지 남겨주세요.
         ex. 자바 1주차 -> Java-1 / 안드로이드 3주차 -> Android-3 / PHP 4주차 -> PHP-4
+        
+        개인 멘토링일 경우 본인이 현재 학습 중인 언어 또는 프레임워크 이름을 남겨주세요.
+        ex. Typescript, Flutter, etc.
   - type: input
     id: student-id
     attributes:
